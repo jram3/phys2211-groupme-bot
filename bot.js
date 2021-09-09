@@ -19,17 +19,17 @@ function respond() {
     var match = false;
     var i = 0;
     while(i < input.length){
-        var key = input[i];
-        console.log(input[i])
-        if(key.keywords.indexOf(text) >= 0){
-            match = true;
+        if(input[i].keywords.indexOf(text) >= 0){
+            this.res.writeHead(200);
+            postMessage(input[i].response);
+            this.res.end();
+            return;
         }
-        console.log(i)
         i++;
     }
 
-    return;
-
+    
+    /*
 	if (text) {
         var msg; //the message to be sent in the groupme
 
@@ -47,7 +47,7 @@ function respond() {
             this.res.end();
             return;
         }
-	}
+	}*/
     console.log("message sent from " + request.name);
     this.res.writeHead(200);
     this.res.end();
