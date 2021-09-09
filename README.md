@@ -11,7 +11,7 @@
 
  # Examples
  
- input.json changes from:
+ original input.json:
 
  ```json
 [
@@ -23,7 +23,7 @@
     }
 ]
  ```
-to:
+Copy/paste an existing command and edit it to get the command you want. No, you don't need the $ before your keywords. This just prevents the chat from getting spammed from people accidentally talking with the bot.
  ```json
  [
     {
