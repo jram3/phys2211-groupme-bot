@@ -3,8 +3,11 @@ var HTTPS = require('https');
 var botID = process.env.BOT_ID;
 
 function respond() {
-	var request = JSON.parse(this.req.chunks[0]),
-	botRegex = /^\/cool guy$/;
+	var request = JSON.parse(this.req.chunks[0]);
+    if(request.sender_type == "bot"){
+        //no communicating with other bots ;_;
+        return;
+    }
     var text = String(request.text);
 
     console.log(text);
