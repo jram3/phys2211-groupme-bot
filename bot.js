@@ -17,7 +17,7 @@ function respond() {
     var input = JSON.parse(rawdata);
 
     var match = false;
-    for (var i = 0; i < input.length; i++) {
+    for (let i = 0; i < input.length; i++) {
         const key = input[i];
         console.log(key.keywords)
         if(key.keywords.indexOf(text) >= 0){
