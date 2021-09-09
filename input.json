@@ -4,5 +4,12 @@
             "$github"
         ],
         "response": "https://github.com/JohnRamberger/phys2211-groupme-bot"
+    },{
+        "keywords":[
+            "$tp",
+	    "$turningpoint",
+	    "$code"
+        ],
+        "response": "The TurningPoint code is fenton2211"
     }
 ]
