@@ -31,7 +31,7 @@ function respond() {
             return;
         }
 	}
-    console.log("message sent from " + request.name + " in " + request.group_id);
+    console.log("message sent from " + request.name);
     this.res.writeHead(200);
     this.res.end();
 }
