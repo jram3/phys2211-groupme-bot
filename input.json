@@ -19,7 +19,8 @@
     },
     {
         "keywords":[
-            "$istherelab"
+            "$istherelab",
+            "lab?"
         ],
         "response": "Not this week."
     }
