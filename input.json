@@ -4,5 +4,23 @@
             "$github"
         ],
         "response": "https://github.com/JohnRamberger/phys2211-groupme-bot"
+    },
+    {
+        "keywords":[
+            "$sessionid"
+        ],
+        "response": "fenton2211"
+    },
+    {
+        "keywords":[
+            "$nextduedate"
+        ],
+        "response": "Lab 1 Video and Grading Practice: Sep 12"
+    },
+    {
+        "keywords":[
+            "$istherelab"
+        ],
+        "response": "Not this week."
     }
 ]
