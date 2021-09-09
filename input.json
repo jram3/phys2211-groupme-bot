@@ -26,5 +26,11 @@
             "lab?"
         ],
         "response": "Not this week."
+    },
+    {
+        "keywords":[
+            "$canwegetthrough1slidewithout1millionquestions"
+        ],
+        "response": "no."
     }
 ]
