@@ -44,6 +44,6 @@ to:
 ]
 ```
 
-gif: 
+## Video Demonstration:
 
- ![gif of adding a command](./help/input.gif)
+https://user-images.githubusercontent.com/56486927/132613196-6b077e20-e968-4bff-bcf9-b3d1cc320264.mp4
