@@ -4,12 +4,13 @@
             "$github"
         ],
         "response": "https://github.com/JohnRamberger/phys2211-groupme-bot"
-    },{
+    },
+    {
         "keywords":[
+            "$sessionid",
+            "$turningpoint",
             "$tp",
-	          "$turningpoint",
-	          "$code",
-             "$sessionid"
+            "$code"
         ],
         "response": "The TurningPoint code is fenton2211"
     },
