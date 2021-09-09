@@ -13,8 +13,8 @@ function respond() {
     var text = String(request.text);
 
     //load the json file
-    let rawdata = fs.readFileSync('input.json');
-    let input = JSON.parse(rawdata);
+    var rawdata = fs.readFileSync('input.json');
+    var input = JSON.parse(rawdata);
     console.log(input)
 
 	if (text) {
