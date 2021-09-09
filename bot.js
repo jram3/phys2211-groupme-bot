@@ -28,26 +28,6 @@ function respond() {
         i++;
     }
 
-    
-    /*
-	if (text) {
-        var msg; //the message to be sent in the groupme
-
-        //higher the if statement, higher the priority
-        if(text.indexOf("test1234") >= 0) {
-            msg = "message contains test1234";
-        }
-        else if(text.indexOf("test123") >= 0) {
-            msg = "message contains test1234";
-        }
-
-        if(msg) {
-            this.res.writeHead(200);
-            postMessage(msg);
-            this.res.end();
-            return;
-        }
-	}*/
     console.log("message sent from " + request.name);
     this.res.writeHead(200);
     this.res.end();
