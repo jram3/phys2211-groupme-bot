@@ -10,21 +10,31 @@ function respond() {
         return;
     }
     //convert text obj to string
-    var text = String(request.text);
+    var text = String(request.text).toLowerCase().trim();
 
     //load the json file
     var rawdata = fs.readFileSync('input.json');
     var input = JSON.parse(rawdata);
-    console.log(input)
+
+    var match = false;
+    input.forEach(key => {
+        if(key.keywords.indexOf(text) >= 0){
+            match = true;
+        }
+    });
+
+    console.log(match)
+
+    return;
 
 	if (text) {
         var msg; //the message to be sent in the groupme
 
         //higher the if statement, higher the priority
-        if(text.toLowerCase().indexOf("test1234") >= 0) {
+        if(text.indexOf("test1234") >= 0) {
             msg = "message contains test1234";
         }
-        else if(text.toLowerCase().indexOf("test123") >= 0) {
+        else if(text.indexOf("test123") >= 0) {
             msg = "message contains test1234";
         }
 
