@@ -20,15 +20,13 @@ function respond() {
     var i = 0;
     while(i < input.length){
         const key = input[i];
-        //console.log(key.keywords)
+        console.log(key)
         if(key.keywords.indexOf(text) >= 0){
             match = true;
         }
         console.log(i)
         i++;
     }
-
-    //console.log(match)
 
     return;
 
