@@ -1,15 +1,8 @@
 [
     {
         "keywords":[
-            "lab",
-            "gps"
+            "github"
         ],
         "response": "no lab this week"
-    },
-    {
-        "keywords":[
-            "homework 3"
-        ],
-        "response": "what"
     }
 ]
