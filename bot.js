@@ -16,11 +16,10 @@ function respond() {
     var rawdata = fs.readFileSync('input.json');
     var input = JSON.parse(rawdata);
 
-    console.log(text)
-
     var match = false;
     for (var i = 0; i < input.length; i++) {
         const key = input[i];
+        console.log(key.keywords)
         if(key.keywords.indexOf(text) >= 0){
             match = true;
         }
