@@ -7,9 +7,23 @@
     },{
         "keywords":[
             "$tp",
-	    "$turningpoint",
-	    "$code"
+	          "$turningpoint",
+	          "$code",
+             "$sessionid"
         ],
         "response": "The TurningPoint code is fenton2211"
+    },
+    {
+        "keywords":[
+            "$nextduedate"
+        ],
+        "response": "Lab 1 Video and Grading Practice: Sep 12"
+    },
+    {
+        "keywords":[
+            "$istherelab",
+            "lab?"
+        ],
+        "response": "Not this week."
     }
 ]
