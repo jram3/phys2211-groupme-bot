@@ -1,12 +1,25 @@
 [
     {
         "keywords":[
-            "is",
-            "there",
             "lab",
-            "this",
-            "week"
+            "gps"
         ],
+        "response": "no lab this week",
         "priority": "high"
+    },
+    {
+        "keywords":[
+            "lab",
+            "gps"
+        ],
+        "response": "no lab this week",
+        "priority": "low"
+    },
+    {
+        "keywords":[
+            ""
+        ],
+        "response": "",
+        "priority": ""
     }
 ]
