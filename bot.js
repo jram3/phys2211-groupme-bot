@@ -19,8 +19,8 @@ function respond() {
     var match = false;
     var i = 0;
     while(i < input.length){
-        const key = input[i];
-        console.log(key)
+        var key = input[i];
+        console.log(input[i])
         if(key.keywords.indexOf(text) >= 0){
             match = true;
         }
