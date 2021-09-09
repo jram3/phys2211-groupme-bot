@@ -4,15 +4,16 @@ var botID = process.env.BOT_ID;
 
 function respond() {
 	var request = JSON.parse(this.req.chunks[0]),
-		botRegex = /^\/cool guy$/;
+	botRegex = /^\/cool guy$/;
+    var text = String(request.text);
 
-	if (request.text) {
+	if (text) {
         //higher the if statement, higher the priority
         var msg;
-        if(request.text.toLowerCase().includes("test1234")) {
+        if(text.toLowerCase().includes("test1234")) {
             msg = "message contains test1234";
         }
-        else if(request.text.toLowerCase().includes("test123")) {
+        else if(text.toLowerCase().includes("test123")) {
             msg = "message contains test1234";
         }
 
