@@ -14,10 +14,10 @@ function respond() {
 	if (text) {
         //higher the if statement, higher the priority
         var msg;
-        if(text.toLowerCase().includes("test1234")) {
+        if(text.toLowerCase().indexOf("test1234") >= 0) {
             msg = "message contains test1234";
         }
-        else if(text.toLowerCase().includes("test123")) {
+        else if(text.toLowerCase().indexOf("test123") >= 0) {
             msg = "message contains test1234";
         }
 
