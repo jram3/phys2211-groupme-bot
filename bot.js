@@ -17,12 +17,14 @@ function respond() {
     var input = JSON.parse(rawdata);
 
     var match = false;
-    for (let i = 0; i < input.length; i++) {
+    var i = 0;
+    while(i < input.length)
         const key = input[i];
         console.log(key.keywords)
         if(key.keywords.indexOf(text) >= 0){
             match = true;
         }
+        i++;
     }
 
     console.log(match)
