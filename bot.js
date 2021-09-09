@@ -7,6 +7,10 @@ function respond() {
 	botRegex = /^\/cool guy$/;
     var text = String(request.text);
 
+    console.log(text);
+    this.res.writeHead(200);
+    this.res.end();
+
 	if (text) {
         //higher the if statement, higher the priority
         var msg;
