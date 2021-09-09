@@ -1,4 +1,5 @@
 var HTTPS = require('https');
+const fs = require('fs');
 
 var botID = process.env.BOT_ID;
 
@@ -8,15 +9,18 @@ function respond() {
         //no communicating with other bots ;_;
         return;
     }
+    //convert text obj to string
     var text = String(request.text);
 
-    console.log(text);
-    this.res.writeHead(200);
-    this.res.end();
+    //load the json file
+    let rawdata = fs.readFileSync('input.json');
+    let input = JSON.parse(rawdata);
+    console.log(input)
 
 	if (text) {
+        var msg; //the message to be sent in the groupme
+
         //higher the if statement, higher the priority
-        var msg;
         if(text.toLowerCase().indexOf("test1234") >= 0) {
             msg = "message contains test1234";
         }
