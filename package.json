@@ -4,7 +4,7 @@
   "description": "a bot for the phys2211 groupme",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node --harmony index.js"
   },
   "dependencies": {
     "director": ""
