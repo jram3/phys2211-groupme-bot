@@ -4,22 +4,12 @@
             "lab",
             "gps"
         ],
-        "response": "no lab this week",
-        "priority": "high"
+        "response": "no lab this week"
     },
     {
         "keywords":[
-            "lab",
-            "gps"
+            "homework 3"
         ],
-        "response": "no lab this week",
-        "priority": "low"
-    },
-    {
-        "keywords":[
-            ""
-        ],
-        "response": "",
-        "priority": ""
+        "response": "what"
     }
 ]
