@@ -1,7 +1,7 @@
 {
-  "name": "Cool guy bot",
-  "description": "Basic Groupme Bot written in Node",
-  "repository": "",
-  "logo": "http://www.tailgate365.com/wp-content/uploads/2011/06/tom-hanks-906.jpg",
+  "name": "phys2211-groupme-bot",
+  "description": "a bot for the phys2211 groupme",
+  "repository": "https://github.com/JohnRamberger/phys2211-groupme-bot",
+  "logo": "",
   "keywords": []
 }
