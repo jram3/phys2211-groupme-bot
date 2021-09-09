@@ -1,7 +1,7 @@
 [
     {
         "keywords":[
-            "github"
+            "$github"
         ],
         "response": "https://github.com/JohnRamberger/phys2211-groupme-bot"
     }
