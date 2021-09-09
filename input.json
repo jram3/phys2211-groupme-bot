@@ -7,7 +7,10 @@
     },
     {
         "keywords":[
-            "$sessionid"
+            "$sessionid",
+            "$turningpoint",
+            "$tp",
+            "$code"
         ],
         "response": "fenton2211"
     },
