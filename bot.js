@@ -20,9 +20,11 @@ function respond() {
     var i = 0;
     while(i < input.length){
         if(input[i].keywords.indexOf(text) >= 0){
-            this.res.writeHead(200);
-            postMessage(input[i].response);
-            this.res.end();
+            setTimeout(() => {
+				this.res.writeHead(200);
+				postMessage(input[i].response);
+				this.res.end();
+			}, 500);
             return;
         }
         i++;
