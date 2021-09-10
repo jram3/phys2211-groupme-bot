@@ -37,7 +37,8 @@ Copy/paste an existing command and edit it to get the command you want. No, you 
             "$keyword",
             "$another keyword",
             "$maybe another keyword?",
-            "$as many keywords as you want"
+            "maybe even a keyword without a prefix?",
+            "$as many keywords as you want!"
         ],
         "response": "text sent back by the bot in GroupMe"
     }
