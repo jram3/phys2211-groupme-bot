@@ -39,5 +39,11 @@
             "$teamslink"
         ],
         "response": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MWUxZjEwZjEtNDRhNC00ZjllLTgxZjgtZGFlZjAyZTZiNTAy%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%2208b7cb88-52b2-4ab3-9cfe-5479dcccadd7%22%7d"
+    },
+    {
+        "keywords":[
+            "$notes"
+        ],
+        "response": "https://docs.google.com/document/d/19lfKC3UcsSv26KJJ3SyFAnu_6ZPV_pOs3dul_8i3IG0/edit?usp=sharing"
     }
 ]
