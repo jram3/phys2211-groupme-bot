@@ -16,27 +16,36 @@
     },
     {
         "keywords":[
-            "$nextduedate"
+            "$nextduedate",
+            "$duedates",
+            "what's due?",
+            "whats due?"
         ],
-        "response": "Lab 1 Video and Grading Practice: Sep 12"
+        "response": "Due Oct 10: lab 3 grading practice, lab 3!!!!, homework week 7(soft deadline), reading week 8(extra bucket points), public lecture review 1(extra bucket points)"
     },
     {
         "keywords":[
             "$istherelab",
-            "lab?"
+            "$lab",
+            "$lab?",
+            "lab?",
+            "lab today?",
+            "lab this week?"
         ],
-        "response": "Not this week."
+        "response": "no lab! 😡"
     },
     {
         "keywords":[
-            "$canwegetthrough1slidewithout1millionquestions"
+            "$canwegetthrough1slidewithout1millionquestions",
+            "can we get through 1 slide without 1 million questions?"
         ],
         "response": "no."
     },
     {
         "keywords":[
             "$lecture",
-            "$teamslink"
+            "$teamslink",
+            "$msteams"
         ],
         "response": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MWUxZjEwZjEtNDRhNC00ZjllLTgxZjgtZGFlZjAyZTZiNTAy%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%2208b7cb88-52b2-4ab3-9cfe-5479dcccadd7%22%7d"
     },
@@ -45,5 +54,35 @@
             "$notes"
         ],
         "response": "https://docs.google.com/document/d/19lfKC3UcsSv26KJJ3SyFAnu_6ZPV_pOs3dul_8i3IG0/edit?usp=sharing"
+    },
+    {
+        "keywords":[
+            "$plus",
+            "$plus session",
+            "$plussession"
+        ],
+        "response": "For those of you who are not familiar with PLUS Sessions, during these, we will take time to do practice problems and discuss concepts covered during lectures.\n\nSchedule:\nTuesdays from 8 pm - 9 pm in Clough Undergraduate Learning Commons Room 323\nThursdays from 7 pm - 8 pm virtually via the link from $pluslink"
+    },
+    {
+        "keywords":[
+            "$pluslink"
+        ],
+        "response": "https://bluejeans.com/195881183/1306"
+    },
+    {
+        "keywords":[
+            "$exam",
+            "$exam1",
+            "$test",
+            "$test1"
+        ],
+        "response": "complete!"
+    },
+    {
+        "keywords":[
+            "$formula sheet",
+            "$formulas"
+        ],
+        "response": "https://edstem.org/us/courses/7931/discussion/620392"
     }
 ]
